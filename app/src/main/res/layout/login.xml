@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="0dp"
+        android:padding="30dp"
+        android:id="@+id/linearLayout">
+
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/marker"
+            android:layout_marginBottom="50dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="textPersonName"
+            android:hint="Nama"
+            android:ems="10"
+            android:id="@+id/username"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="textPassword"
+            android:hint="password"
+            android:ems="10"
+            android:id="@+id/password"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="submit"
+                android:id="@+id/submit"
+                android:background="#58adea"
+                android:layout_marginRight="30dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="reset"
+                android:id="@+id/reset"
+                android:background="#ff0000"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
