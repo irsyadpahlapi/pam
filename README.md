@@ -1,3 +1,2 @@
 # pam
-tugas akhir
-pam
+tugas akhir pam
